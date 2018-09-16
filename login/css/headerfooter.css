@@ -1,0 +1,26 @@
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#topbar, #header, #intro, #breadcrumb, #container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
+
+/* ----------------------------------------------TopBar------------------------------------- */
+
+#topbar{padding:10px 0;}
+#topbar p{float:left; margin:0; padding:0;}
+#topbar ul{float:right; margin:0; padding:0; list-style:none;}
+#topbar li{display:inline; margin:0 8px 0 0; padding:0 10px 0 0; border-right:1px solid white;}
+#topbar li.last{margin-right:0; padding-right:0; border:none;}
+
+/
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 15px 0; padding:0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+.col1, .col1 a{color:white; background-color:#982216;}
+.col6, .col6 a{color:#FFFFFF; background-color:#333333;}
+
+
+a{outline:none; text-decoration:none;}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
